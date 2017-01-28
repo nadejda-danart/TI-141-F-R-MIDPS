@@ -1,0 +1,11 @@
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\bin\Debug\GUI.exe.config
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\bin\Debug\GUI.exe
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\bin\Debug\GUI.pdb
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\bin\Debug\Core.dll
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\bin\Debug\Core.pdb
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\obj\Debug\GUI.MainWindow.resources
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\obj\Debug\GUI.exe
+C:\Users\pc\Desktop\Calculator (1)\Calculator\GUI\obj\Debug\GUI.pdb
