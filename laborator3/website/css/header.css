@@ -1,0 +1,62 @@
+
+
+.navigation {
+    color: white;
+    position:fixed;
+    top: 0;
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation .container {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navigation .menu a:hover {
+    background-color: transparent;
+    color: #aaaaaa;
+}
+
+.navigation .menu {
+    font-size: 20px;
+}
+
+.navigation .menu a:focus {
+    background-color: transparent;
+}
+
+.navigation .logo .color {
+    display: none;
+}
+
+.navigation.moved .logo .color {
+    display: inline;
+}
+
+.navigation.moved .logo .mono {
+    display: none;
+}
+
+.navigation.moved {
+    background: white;
+    color: #848484;
+}
+
+.navigation.moved a {
+    color: #848484;
+}
+
+.navigation.moved a:hover {
+    color: black;
+}
+
+.navigation .mobile-number {
+    border: 1px solid white;
+}
+
+.navigation.moved .mobile-number {
+    border: 1px solid #848484;
+}

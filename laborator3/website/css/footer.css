@@ -1,0 +1,11 @@
+/* footer */
+
+.footer {
+    color: #7b7b7b;
+    background-color: #f5f5f5;
+}
+
+.footer .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
