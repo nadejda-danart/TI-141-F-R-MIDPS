@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cronometru</string>
+    <string name="start">Start</string>
+    <string name="lap">Lap</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+    <array name="laps">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </array>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.midps.cronometru.MainActivity">
+
+    <com.midps.cronometru.MilliChronometer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonStart"
+            android:layout_weight="1"
+            android:onClick="startChronometer"/>
+
+        <Button
+            android:text="@string/lap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonLap"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:onClick="saveLap" />
+
+        <Button
+            android:text="@string/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonReset"
+            android:layout_weight="1"
+            android:onClick="reset" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lapList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:entries="@array/laps"/>
+</LinearLayout>
